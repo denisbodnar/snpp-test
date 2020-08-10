@@ -40,6 +40,6 @@ Back-End
 
 rename the ```.env.sample``` file to ```.env``` , change the frontend url variable if you need
 
-```cd client && npm install``` to setup
-```npm run app``` to run the app
-```npm run test``` to run tests
+```cd client && npm install``` to setup  
+```npm run app``` to run the app  
+```npm run test``` to run tests  
