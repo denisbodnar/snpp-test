@@ -23,23 +23,24 @@ Back-End:
 
 ### Instructions
 
-Front-end
-
-> You need to have ```yarn``` installed in order to run frontend part.
-
-rename the ```.env.sample``` file to ```.env``` , change the backend url variable if you need
-
-```cd client && npm install``` to setup
-```yarn build``` to run production app
-
-```yarn global add serve && serve -s build``` to start production server
-
-```yarn test``` to run tests
+First, you need to run the backend.
+Notice, that Node.js version >=10 is needed for this app to work correctly.
 
 Back-End
 
 rename the ```.env.sample``` file to ```.env``` , change the frontend url variable if you need
 
-```cd client && npm install``` to setup  
-```npm run app``` to run the app  
-```npm run test``` to run tests  
+- ```cd server && npm install``` to setup  
+- ```npm run start``` to run the app  
+
+Also, you can run ```npm run test``` to run tests.  
+
+Front-end
+
+rename the ```.env.sample``` file to ```.env``` , change the backend url variable if you need
+
+- ```cd client && npm install``` to setup
+- ```npm run build``` to build production app
+- ```npm install -g serve && serve -s build``` to start production server
+
+You can run ```npm run test``` to run tests
